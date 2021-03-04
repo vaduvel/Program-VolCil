@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play';
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background: #dde4d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    place-items: center;
+}
+
+.container {
+    border-radius: 50px;
+    background: #dde4d8;
+    box-shadow: 20px 20px 60px #bcc2b8, -20px -20px 60px #fefff8;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.container input {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
